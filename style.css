@@ -1,0 +1,65 @@
+body .html {
+    font-family: comic sans ms;
+    font-family: comic sans ms;
+    background-color: white;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-family: comic sans ms;
+}
+
+.login-form {
+    height: 500px;
+    width: 430px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 100px 50px;
+    background-color: lightgrey;
+    border: none;
+}
+
+input[type="email"],
+input[type="password"] {
+    border-radius: 20px;
+}
+
+.btn-login {
+    height: 35px;
+    border-radius: 20px;
+    font-weight: 700;
+    background-color: blue;
+
+}
+
+.btn-login:hover{
+    height: 35px;
+    border-radius: 20px;
+    font-weight: 700;
+    background-color: darkblue;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.link {
+    color: #198754;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #198754;
+    text-decoration: none;
+}
+
